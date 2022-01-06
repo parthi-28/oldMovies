@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.poster {
+  /* height: 10rem; */
+  width: 10rem;
+  border-radius: 12px;
+  object-fit: contain;
+}
+.app h1{
+  margin-left: 20px;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 300px;
+  width: 800px;
+  gap: 20px;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;;
+}
